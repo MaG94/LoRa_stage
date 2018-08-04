@@ -5,7 +5,8 @@ Simple python script, based on MQTT protocol, that perform a connection to a LoR
 The **MQTT protocol** is a machine-to-machine (M2M)/”Internet of Things” connectivity protocol. Designed as an extremely lightweight _**publish/subscribe messaging transport**_, it is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. The **Eclipse Paho** project is the reference implementation for the MQTT protocol.
 
 # Publish/subscribe pattern
-![alt text](https://www.hivemq.com/wp-content/uploads/pub-sub-mqtt-1024x588.png)
+The publish/subscribe pattern (also known as pub/sub) provides an alternative to traditional client-server architecture. In the client-sever model, a client communicates directly with an endpoint.The pub/sub model decouples the client that sends a message (the publisher) from the client or clients that receive the messages (the subscribers). The publishers and subscribers never contact each other directly. In fact, they are not even aware that the other exists. The connection between them is handled by a third component (the broker). The job of the broker is to filter all incoming messages and distribute them correctly to subscribers. So, let’s dive a little deeper into some of the general aspects of pub/sub (we’ll talk about MQTT specifics in a minute).
+![alt text](https://www.hivemq.com/wp-content/uploads/pub-sub-mqtt-1024x588.png =100x20)
 
 # Environment setup
 ### First step
