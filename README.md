@@ -16,7 +16,9 @@ Then you have install **pip**
 sudo apt-get install python-pip
 ```
 ### Third step
-In the end you have to install **paho**
+The following step is to install **paho**
 ```
 sudo pip install paho-mqtt
 ```
+### Fourth step 
+In the end you have to create your own **configuration.py** file where you will put your own connection parameters like **username**, **password** and **certificate path**
