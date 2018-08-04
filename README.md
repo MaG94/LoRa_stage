@@ -2,8 +2,9 @@
 Simple python script, based on MQTT protocol, that perform a connection to a LoRa server using PAHO library. After the connection is established, data sent by a temperature sensor is retrieved, parsed and stored into a database.
 
 # What are MQTT and PAHO?
-The **MQTT protocol** is a machine-to-machine (M2M)/”Internet of Things” connectivity protocol. Designed as an extremely lightweight publish/subscribe messaging transport, it is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. The **Eclipse Paho** project is the reference implementation for the MQTT protocol.
+The **MQTT protocol** is a machine-to-machine (M2M)/”Internet of Things” connectivity protocol. Designed as an extremely lightweight *publish/subscribe messaging transpor*t, it is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. The **Eclipse Paho** project is the reference implementation for the MQTT protocol.
 
+# Publish/subscribe pattern
 ![alt text](https://www.hivemq.com/wp-content/uploads/pub-sub-mqtt-1024x588.png)
 
 # Environment setup
