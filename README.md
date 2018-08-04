@@ -4,6 +4,8 @@ Simple python script, based on MQTT protocol, that perform a connection to a LoR
 # What are MQTT and PAHO?
 The **MQTT protocol** is a machine-to-machine (M2M)/”Internet of Things” connectivity protocol. Designed as an extremely lightweight publish/subscribe messaging transport, it is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. The **Eclipse Paho** project is the reference implementation for the MQTT protocol.
 
+![alt text](https://www.hivemq.com/wp-content/uploads/pub-sub-mqtt-1024x588.png)
+
 # Environment setup
 ### First step
 First of all, to use this application you have to download python 
