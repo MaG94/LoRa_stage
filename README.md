@@ -27,4 +27,4 @@ The following step is to install **paho**
 sudo pip install paho-mqtt
 ```
 ### Fourth step 
-In the end you have to create your own **configuration.py** file where you will put your own connection parameters like **username**, **password** and **certificate path**
+In the end you have to modify your own **configuration.py** file where you will put your own connection parameters like **username**, **password** and **certificate local path**. Once you have run the script, datas will be stored into **database.db** file. You can use several software like https://sqlitebrowser.org to see the content of the database
